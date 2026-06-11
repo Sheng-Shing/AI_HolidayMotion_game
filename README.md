@@ -53,8 +53,9 @@ Characteristic UUID: 0000fff2-0000-1000-8000-00805f9b34fb
 
 1. 連接 BLE 裝置
 2. 啟用 characteristic notifications
-3. 傳送 `BFWLX`
-4. 收到 `255` 後傳送 `ST`
+3. 等待 3 秒，確保 notifications 已準備好
+4. 傳送 `BFWLX`
+5. 收到 `255` 後傳送 `ST`
 
 ## 感測資料格式
 
